@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Playball&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: #eeefef;
+}
+
+.Main{
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+   
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #1B244A;
+    padding: 0%;
+}
+#reset{
+  position: relative;
+  left:40%;
+  background-color: #F94F6D;
+    margin: 0px auto;
+   padding: 0.7em;
+   border-radius: 1em;
+   max-width: 100%;
+    width: 140px;
+    margin-bottom: 50px;
+    border: none;
+    color: black;
+    font-size: 32px;
+}
+h3{
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+}
+
+.score-board{
+    background-color: black;
+    width:155px;
+    height: 120px;
+    position: relative;    
+}
+
+#score-el,#score{    
+font-family: 'Playball';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+color: #F94F6D;
+
+}
+
+button{
+    background-color: transparent;
+    border:1px solid #9aabd8;
+    color: #9aabd8;
+    margin-top:1em;
+    padding-right:1em;
+    text-align: center;
+    font-family: 'Playball';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;    
+}

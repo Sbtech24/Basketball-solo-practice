@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div class="Main">
+                <div>
+                    <h3>HOME</h3>
+                    <div class="score-board">
+                        <div id="score-el">0</div>
+                    </div>
+                    <button onclick="plusOne()">+1</button>
+                    <button onclick="plusTwo()">+2</button>
+                    <button onclick="plusThree()">+3</button>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                    <div class="score-board">
+                        <div id="score">0</div>
+                    </div>
+                    <button onclick="addOne()">+1</button>
+                    <button onclick="addTwo()">+2</button>
+                    <button onclick="addThree()">+3</button>
+                </div>
+            </div>
+            <button id="reset" onclick="reset()">Restart</button>
+        </div>
+        
+        <script src="index.js"></script>
+    
+</html>
+</body>
+</html>
